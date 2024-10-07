@@ -1,0 +1,65 @@
+* {
+  margin: 0px 5px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.header {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 4vw;
+}
+.header__menu {
+  font-size: 2.5vw;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.main {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.main__image {
+  width: 50%;
+  background-image: url(./assets/images/Portrait.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.main__text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__text-1 {
+  font-size: 10vw;
+}
+.main__text-2, .main__text-3, .main__text-4 {
+  font-size: 5vw;
+}
+
+.footer {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+.footer [class^=footer__] img {
+  width: 5.3vw;
+}/*# sourceMappingURL=style.css.map */
